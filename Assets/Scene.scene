@@ -651,8 +651,8 @@
     pinToTop: false
     pinToRight: false
     pinToBottom: false
-    fixedWidth: true
-    fixedHeight: true
+    fixedWidth: false
+    fixedHeight: false
     deactivatedFixedSprite: false
     deactivatedFixedPivot: false
   Pivot: {x: 0.000000, y: 0.000000}
@@ -665,15 +665,15 @@
   ForceBasic: true
   EnableDebugRender: false
   Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
     left: 0.000000
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
-  Offset:
-    left: -360.000000
-    bottom: -640.000000
-    right: 360.000000
-    top: 640.000000
 - !<SceneObject/8f22fc96-9b33-443a-84fd-4456894b660c>
   PrefabRemaps:
     []
@@ -1097,9 +1097,9 @@
   EnableDebugRender: false
   Anchor:
     left: 0.000000
-    bottom: -0.600000
+    bottom: -0.200000
     right: 0.000000
-    top: -0.600000
+    top: -0.200000
   Offset:
     left: -99.999992
     bottom: -50.000000
