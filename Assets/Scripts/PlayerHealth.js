@@ -31,12 +31,16 @@ function onRestartClicked() {
     }
     
     if (script.obstacleManager) {
-        var managerObj = script.obstacleManager.getSceneObject();
-        if (managerObj) {
-            managerObj.enabled = false;
-            managerObj.enabled = true;
-        }
+        script.obstacleManager.enabled = false;
         script.obstacleManager.enabled = true;
+
+        var delayEvent = script.createEvent("DelayedCallbackEvent");
+        delayEvent.bind(function() {
+            if (script.obstacleManager && typeof script.obstacleManager.resetManager === "function") {
+                script.obstacleManager.resetManager();
+            }
+        });
+        delayEvent.reset(0.05);
     }
 
     var rootObject = script.getSceneObject(); 

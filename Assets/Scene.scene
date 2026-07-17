@@ -530,8 +530,7 @@
   Enabled: true
   ScriptAsset: !<reference> 095c5435-4f7b-4782-a69d-1b6dbfd2da1d
   ScriptInputsDefault:
-    spawnInterval: true
-    coinSpawnChance: true
+    difficultySpeed: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -542,8 +541,10 @@
         - !<reference> 38cd55f1-c60b-4eac-8938-7a07c4ec3744
         - !<reference> 8f22fc96-9b33-443a-84fd-4456894b660c
         - !<reference> 5b712362-4f36-4e06-b3b3-bd18dac3c1f3
-      spawnInterval: !<float> 2.000000
-      coinSpawnChance: !<float> 40.000000
+      spawnInterval: 0.700000
+      coinSpawnChance: !<float> 30.000000
+      minSpawnInterval: 0.100000
+      difficultySpeed: 0.020000
   ScriptTypes:
     "":
       {}

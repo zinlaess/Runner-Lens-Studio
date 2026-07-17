@@ -29,6 +29,8 @@
   ScriptInputsHidden:
     coinPrefab: false
     coinSpawnChance: false
+    difficultySpeed: false
+    minSpawnInterval: false
     obstaclePrefab: false
     spawnInterval: false
     spawnPoints: false
@@ -47,6 +49,8 @@
         []
       spawnInterval: !<float> 2.000000
       coinSpawnChance: !<float> 40.000000
+      minSpawnInterval: 0.800000
+      difficultySpeed: 0.020000
   ScriptTypes:
     -
       {}
