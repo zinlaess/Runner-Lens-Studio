@@ -1,0 +1,55 @@
+- !<AssetImportMetadata/a7ce4b73-1d42-4a73-b405-7711d624ab4c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 46b31df2-bff3-4d47-9dd1-929c457b538f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 46b31df2-bff3-4d47-9dd1-929c457b538f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 1071c1c8-4e80-4f33-a364-1993b1b13aa3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/1071c1c8-4e80-4f33-a364-1993b1b13aa3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 79395f28-b41b-48b5-9d4c-dba998c7009b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animStateManager: false
+    collider: false
+    gravity: false
+    jumpForce: false
+    laneWidth: false
+    player: false
+    speed: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - animStateManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      player: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      collider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      laneWidth: !<float> 5.000000
+      speed: !<float> 10.000000
+      jumpForce: !<float> 15.000000
+      gravity: !<float> -40.000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,81 @@
+- !<ObjectPrefab/172a69b9-348d-4d5b-86f4-e556d58a7487>
+  PackagePath: ""
+  objects:
+    - !<own> f9a7119d-44b4-4038-a344-649ebd863c86
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/a4fea5f6-bb25-4995-947d-7dd1825d97e8>
+  PrefabRemaps:
+    []
+  Name: Obstacle
+  Enabled: true
+  ScriptAsset: !<reference> aed9a07d-06c0-4d82-8aef-d79779c304bc
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/ad443e12-6c19-45ac-b222-f975551b45c0>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 0.500000, y: 0.500000, z: 0.500000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: true
+  ShowCollider: false
+- !<RenderMeshVisual/be86fddd-ac6b-4f1c-87c5-940dd486a7c8>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b8595148-6e68-4092-bbbd-a1ccdb3f3434
+  Mesh: !<reference> 4b4a1b48-bdf3-4223-95d0-33f7a68d8fd1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f9a7119d-44b4-4038-a344-649ebd863c86>
+  PrefabRemaps:
+    - a4fea5f6-bb25-4995-947d-7dd1825d97e8: a4fea5f6-bb25-4995-6b82-822e7da26817
+    - ad443e12-6c19-45ac-b222-f975551b45c0: ad443e12-6c19-45ac-4ddd-068aaae4ba3f
+    - be86fddd-ac6b-4f1c-87c5-940dd486a7c8: be86fddd-ac6b-4f1c-783a-6bf22b795837
+    - f9a7119d-44b4-4038-a344-649ebd863c86: f9a7119d-44b4-4038-5cbb-9b614279c379
+  Name: Cone
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 1.548529, y: -47.380524, z: -5.119247}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> be86fddd-ac6b-4f1c-87c5-940dd486a7c8
+    - !<own> ad443e12-6c19-45ac-b222-f975551b45c0
+    - !<own> a4fea5f6-bb25-4995-947d-7dd1825d97e8

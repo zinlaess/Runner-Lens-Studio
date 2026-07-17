@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/ec7103dc-57d3-46c6-95c1-45858c17ebcf>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9896d38c-9b7a-42b7-ab39-569379b2531c
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9896d38c-9b7a-42b7-ab39-569379b2531c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 88491128-ba2a-47c8-be48-b75d0cba6fd9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/88491128-ba2a-47c8-be48-b75d0cba6fd9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 54e8e783-5a98-4917-b188-3959b5e7b993
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    deathCharacter: false
+    deathClipName: false
+    gameOverScreen: false
+    mainCharacter: false
+    maxLives: false
+    obstacleManager: false
+    playerController: false
+    restartButton: false
+    scoreManager: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - maxLives: 3
+      gameOverScreen: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      restartButton: !<reference.InteractionComponent> 00000000-0000-0000-0000-000000000000
+      playerController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      obstacleManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scoreManager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      mainCharacter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      deathCharacter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      deathClipName: death
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,52 @@
+- !<AssetImportMetadata/fab9dbcb-2ba2-4a59-ae78-42126e98f779>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 095c5435-4f7b-4782-a69d-1b6dbfd2da1d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 095c5435-4f7b-4782-a69d-1b6dbfd2da1d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 411710ee-659e-4188-96be-01fe26bb1028
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/411710ee-659e-4188-96be-01fe26bb1028>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 1f78486b-8cca-46b4-a5c8-8e15a4446469
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    coinPrefab: false
+    coinSpawnChance: false
+    obstaclePrefab: false
+    spawnInterval: false
+    spawnPoints: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - obstaclePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      coinPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      spawnPoints: !<reference.SceneObject[]>
+        []
+      spawnInterval: !<float> 2.000000
+      coinSpawnChance: !<float> 40.000000
+  ScriptTypes:
+    -
+      {}
